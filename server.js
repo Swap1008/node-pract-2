@@ -9,6 +9,10 @@ app.get('/',(req,res)=>{
     res.send("Welcome to node 2");
 });
 
+app.get('/about',(req,res)=>{
+    res.send("About Page");
+});
+
 // Listen
 
 app.listen(port,()=>{
